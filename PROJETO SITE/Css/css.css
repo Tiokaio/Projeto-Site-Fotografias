@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta&display=swap');
+body{
+    background: linear-gradient(#9bedf0, #5a5d76);
+}
+*{
+margin: 0; padding: 0; box-sizing:border-box;}
+.logo1{
+    width: 250px;
+    height: 150px;
+
+}
+#submit{
+    padding: 1em 1em;
+    border-radius: 5em;
+    border:none;
+    margin-bottom: 1em;
+}
+#submit:hover{
+      
+    cursor:pointer;
+    background-color: #5a5d76;
+    color:rgb(248, 241, 241);
+   
+}
+
+.logo3{
+    width: 200px;
+}
+.menu{
+    display: flex;
+    justify-content: center;
+}
+.divisor{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    display: flex;
+    justify-content: center;
+    gap: 70px;   
+}
+.divisor img {
+    background-color: white;
+    border-radius: 10px;
+    -webkit-transition:-webkit-transform .5s ease;
+    transition: transform .5s ease   
+} 
+.divisor a:hover img {   
+    -webkit-transform: scale(2.2);
+    transform: scale(1.2);
+    
+}
+.divisor a:hover .menu-item-instagram{
+    background-color: #ea526b;
+}
+.divisor a:hover .menu-item-whattsapp{
+    background-color: #67e439;
+}
+
+.form{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border: solid 2px rgb(66, 96, 101);
+    border-radius: 15px;
+
+} 
+.Titulo{
+    text-align: center;    
+    color: #4a4c4d;
+    font-family: 'Mukta', sans-serif;
+    font-size: xx-large;
+    padding-bottom: 1em;
+}
+.radio{
+    text-align: center;
+    padding-bottom: 1em;
+}
+.nome{
+    padding-bottom: 1em;
+    padding-top: 1em;
+}
+.numero{
+  
+    padding-bottom: 1em;
+}
+.img{ width: 100%;
+    width: 800px;
+    height: 500px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 50px;
+    background-color: #4a4c4d; 
+    }
+.body{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    justify-content: space-around;
+     
+}
+input{
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-left: 5px;
+    border-radius: 5em;
+    border:none
+}
+input:focus{
+    box-shadow: 0 0 0 0;
+    outline: 0;
+    
+}
+.footer{
+    background: linear-gradient(68.15deg, #4a4c4d 16.62%, #9fa4a5 85.61%);
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content: space-around;
+}
+.rodape{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(248, 241, 241);
+    font-weight: 600;
+}
+
+
